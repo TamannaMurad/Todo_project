@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <button type="button" aria-label="dark_mode_theme" id="themeBtn">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <main id="todolist">
+      <h1>
+        Todo List
+        <span>Get things done, one item at a time.</span>
+      </h1>
+
+      <p class="emptylist">Your todo list is empty.</p>
+
+      <ul id="lists">
+        <li>Learn js</li>
+      </ul>
+
+      <form id="form">
+        <label for="newitem">Add to the todo list</label>
+        <input type="text" id="newitem" />
+        <button type="submit" id="btn">Add item</button>
+      </form>
+    </main>
+  </body>
+</html>
